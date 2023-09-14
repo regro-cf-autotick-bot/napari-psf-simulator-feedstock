@@ -44,7 +44,7 @@ about:
   summary: A plugin for simulations of the Point Spread Function, with aberrations
   license: BSD-3-Clause
   license_file: LICENSE
-  dev_urel: https://github.com/andreabassi78/napari-psf-simulator
+  dev_url: https://github.com/andreabassi78/napari-psf-simulator
 
 extra:
   recipe-maintainers:
