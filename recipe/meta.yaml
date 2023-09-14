@@ -17,15 +17,18 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.8,<3.11
     - setuptools-scm
   run:
     - magicgui
+    - matplotlib-base
     - napari
     - numpy
-    - python >=3.8
+    - pycustomfocus >=3.3.6
+    - python >=3.8,<3.11
     - qtpy
-    - scipy
+    - scikit-image  # Imported but not required
+    - scipy   # Imported but not required
 
 test:
   imports:
@@ -37,10 +40,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/andreabassi78/napari-psf-simulator
+  home: https://pypi.org/project/napari-psf-simulator
   summary: A plugin for simulations of the Point Spread Function, with aberrations
   license: BSD-3-Clause
   license_file: LICENSE
+  dev_urel: https://github.com/andreabassi78/napari-psf-simulator
 
 extra:
   recipe-maintainers:
