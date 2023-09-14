@@ -27,8 +27,8 @@ requirements:
     - pycustomfocus >=3.3.6
     - python >=3.8,<3.11
     - qtpy
-    - scikit-image  # Imported but not required
-    - scipy   # Imported but not required
+    - scikit-image  # Imported but not declared in requirements
+    - scipy   # Imported but not declared in requirements
 
 test:
   imports:
