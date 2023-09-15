@@ -1,11 +1,11 @@
-About napari-psf-simulator
-==========================
+About napari-psf-simulator-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-psf-simulator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/andreabassi78/napari-psf-simulator
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-psf-simulator-feedstock/blob/main/LICENSE.txt)
 
 Summary: A plugin for simulations of the Point Spread Function, with aberrations
 
