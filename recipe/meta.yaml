@@ -1,5 +1,5 @@
 {% set name = "napari-psf-simulator" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-psf-simulator-{{ version }}.tar.gz
-  sha256: d92a3613b9dff79e892c30ef79f95ce828f9d35c40b009667b9f1f69d3da36f3
+  sha256: e131284b801c91194c72d1a9993c0f2b40110dac5c650690e696c91d1da12742
 
 build:
   noarch: python
@@ -27,8 +27,8 @@ requirements:
     - pycustomfocus >=3.3.6
     - python >=3.8,<3.11
     - qtpy
-    - scikit-image  # Imported but not declared in requirements
-    - scipy   # Imported but not declared in requirements
+    - scikit-image
+    - scipy
 
 test:
   imports:
