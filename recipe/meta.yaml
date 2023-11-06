@@ -1,5 +1,5 @@
 {% set name = "napari-psf-simulator" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-psf-simulator-{{ version }}.tar.gz
-  sha256: 1ddace1bef9e025ab55f697c956b3a966eba45f8f892c6183095fa7175f6c594
+  sha256: 3d57b56a4731771dc45144850f55c76dfc9a7434aaf69520433245fd5dfc6da1
 
 build:
   noarch: python
